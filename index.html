@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title><%= SITE_NAME %></title>
+    <meta content="Starter kit with Fastify, React and TypeScript" name="description">
+    <meta name="keywords" content="Fastify, React, TypeScript, Vite">
+    <meta name="author" content="Giacomo Rebonato">
+  
+    <meta name="google-site-verification" content="<%= GOOGLE_VERIFICATION_ID %>" />
+    <link rel="icon" type="image/x-icon" href="/src/client/assets/favicon.ico" />
+    <link rel="stylesheet" type="text/css" href="/src/client/styles/tailwind.css" />
+  </head>
+  <body>
+    <div id="root"><!--ssr-outlet--></div>
+    <script type="module" src="/src/client/hydrate.tsx"></script>
+  </body>
+</html>
+
